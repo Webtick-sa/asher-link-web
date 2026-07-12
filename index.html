@@ -13,7 +13,7 @@
 </head>
 <body class="bg-[#0b0e14] text-white selection:bg-indigo-500">
 
-    <nav class="sticky top-0 z-50 glass border-b border-white/10">
+    <nav class="sticky top-0 z-50 glass">
         <div class="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
             <div class="text-2xl font-extrabold tracking-tighter">
                 Asher<span class="text-indigo-500">-Link</span>
@@ -39,8 +39,8 @@
                 Join the neighborhood wifi network. High-speed, affordable, and made for the streets. Get Wifi in seconds without the headache of long-term contracts.
             </p>
             <div class="flex justify-center gap-4">
-                <a href="#packages" class="bg-indigo-600 px-8 py-4 rounded-2xl font-bold hover:bg-indigo-500 transition shadow-xl shadow-indigo-500/20">Check Packages</a>
-                <a href="#coverage" class="bg-white/5 px-8 py-4 rounded-2xl font-bold hover:bg-white/10 transition">Check Coverage</a>
+                <a href="#packages" class="bg-indigo-600 px-6 py-4 rounded-2xl font-bold hover:bg-indigo-500 transition shadow-xl shadow-indigo-500/20">Packages</a>
+                <a href="#coverage" class="bg-white/5 px-6 py-4 rounded-2xl font-bold hover:bg-white/10 transition">Coverage</a>
             </div>
         </section>
 
@@ -113,14 +113,14 @@
             </div>
         </section>
 
-        <div class="mb-24">
+        <div class="mb-24 gap-8">
             
             <section id="coverage" class="glass p-8 rounded-3xl">
                 <h2 class="text-2xl font-bold mb-4">Is your street live?</h2>
                 <p class="text-slate-400 mb-6">Type your street name to see if we're already active there.</p>
                 <div class="flex gap-2">
                     <input type="text" id="streetInput" placeholder="e.g. Main Street" class="flex-1 bg-white/5 border border-white/10 px-4 py-3 rounded-xl focus:outline-none focus:border-indigo-500">
-                    <button onclick="checkCoverage()" class="bg-white text-black px-6 py-3 rounded-xl font-bold hover:bg-slate-200 transition">Check</button>
+                    <button onclick="checkCoverage()" class="bg-white text-black px-6 py-3 rounded-xl hidden font-bold hover:bg-slate-200 transition">Check</button>
                 </div>
                 <div id="coverageResult" class="mt-4 hidden p-4 rounded-xl font-bold"></div>
             </section>
