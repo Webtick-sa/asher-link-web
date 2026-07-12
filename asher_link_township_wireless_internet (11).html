@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asher-Link | Township Internet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="bg-[#0b0e14] text-white selection:bg-indigo-500">
+
+    <nav class="sticky top-0 z-50 glass border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="text-2xl font-extrabold tracking-tighter">
+                Asher<span class="text-indigo-500">-Link</span>
+            </div>
+            <div class="hidden md:flex gap-6 text-sm font-medium">
+                <a href="#hero" class="hover:text-indigo-400 transition">Home</a>
+                <a href="#features" class="hover:text-indigo-400 transition">Why Us</a>
+                <a href="#coverage" class="hover:text-indigo-400 transition">Coverage</a>
+                <a href="#calculator" class="hover:text-indigo-400 transition">Calculator</a>
+            </div>
+            <a href="#install" class="bg-indigo-600 px-4 py-2 rounded-xl text-sm font-bold hover:bg-indigo-500 transition">Get Connected</a>
+        </div>
+    </nav>
+    
+    <main class="max-w-6xl mx-auto px-6 py-16">
+        <!-- Hero Section -->
+        <section class="text-center mb-24">
+            <div class="inline-block px-4 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-bold uppercase tracking-widest mb-6">
+                Unlimited Sharp-sharp
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Data for days, <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">no stress.</span></h1>
+            <p class="text-slate-400 text-lg max-w-2xl mx-auto mb-10">
+                Join the neighborhood wifi network. High-speed, affordable, and made for the streets. Get Wifi in seconds without the headache of long-term contracts.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#packages" class="bg-indigo-600 px-8 py-4 rounded-2xl font-bold hover:bg-indigo-500 transition shadow-xl shadow-indigo-500/20">Check Packages</a>
+                <a href="#coverage" class="bg-white/5 px-8 py-4 rounded-2xl font-bold hover:bg-white/10 transition">Check Coverage</a>
+            </div>
+        </section>
+
+        <!-- Features Grid -->
+        <section class="grid md:grid-cols-3 gap-6 mb-24">
+            <div class="glass p-8 rounded-3xl">
+                <div class="text-4xl mb-4">🚀</div>
+                <h3 class="text-xl font-bold mb-2">R0 Setup</h3>
+                <p class="text-slate-400 text-sm">Forget those crazy installation fees. We put wifi everywhere, just jump on.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl">
+                <div class="text-4xl mb-4">📱</div>
+                <h3 class="text-xl font-bold mb-2">No Contracts</h3>
+                <p class="text-slate-400 text-sm">Own your data. Buy what you need, when you need it. No strings attached.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl">
+                <div class="text-4xl mb-4">✨</div>
+                <h3 class="text-xl font-bold mb-2">Free Access Tier</h3>
+                <p class="text-slate-400 text-sm">Need a quick fix? Watch a short ad and get free internet connection.</p>
+            </div>
+        </section>
+
+        <!-- Packages -->
+        <section id="packages" class="mb-24">
+            <h2 class="text-3xl font-bold text-center mb-12">Pick Your Vibe</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="glass p-8 rounded-3xl border-t-4 border-indigo-500">
+                    <h4 class="text-sm font-bold text-indigo-400 uppercase tracking-widest mb-2">The Quick Fix</h4>
+                    <div class="text-4xl font-extrabold mb-6">R5 - R15</div>
+                    <ul class="text-slate-400 space-y-3 text-sm">
+                        <li>• Unlimited data</li>
+                        <li>• Perfect for social media</li>
+                        <li>• Pay as you go</li>
+                    </ul>
+                </div>
+                <div class="glass p-8 rounded-3xl border-t-4 border-purple-500">
+                    <h4 class="text-sm font-bold text-purple-400 uppercase tracking-widest mb-2">The Value Pack</h4>
+                    <div class="text-4xl font-extrabold mb-6">R20 - R45</div>
+                    <ul class="text-slate-400 space-y-3 text-sm">
+                        <li>• Unlimited data</li>
+                        <li>• Faster load times</li>
+                        <li>• Great for study & music</li>
+                    </ul>
+                </div>
+                <div class="glass p-8 rounded-3xl border-t-4 border-blue-500">
+                    <h4 class="text-sm font-bold text-blue-400 uppercase tracking-widest mb-2">The Heavy Duty</h4>
+                    <div class="text-4xl font-extrabold mb-6">R50 - R150</div>
+                    <ul class="text-slate-400 space-y-3 text-sm">
+                        <li>• Unlimited data</li>
+                        <li>• Best for streaming & movies</li>
+                        <li>• Monthly peace of mind</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="calculator" class="mb-24">
+            <h2 class="text-3xl font-bold text-center mb-12">Data Needs Calculator</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <label class="block mb-2 text-slate-400">Daily Video Streaming (Hours)</label>
+                    <input type="range" id="hours" min="0" max="12" value="2" class="w-full accent-indigo-500" oninput="calculate()">
+                    <p class="mt-2 font-bold"><span id="hoursVal">2</span> Hours/day</p>
+                </div>
+                <div class="bg-indigo-900/20 p-6 rounded-2xl border border-indigo-500/20">
+                    <p class="text-indigo-300 font-bold mb-2">Estimated Monthly Plan</p>
+                    <div id="estimate" class="text-4xl font-extrabold">Value Pack</div>
+                    <p class="text-sm text-slate-400 mt-2">Recommended for your usage.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid md:grid-cols-2 gap-8 mb-24">
+            
+            <section id="coverage" class="glass p-8 rounded-3xl">
+                <h2 class="text-2xl font-bold mb-4">Is your street live?</h2>
+                <p class="text-slate-400 mb-6">Type your street name to see if we're already active there.</p>
+                <div class="flex gap-2">
+                    <input type="text" id="streetInput" placeholder="e.g. Main Street" class="flex-1 bg-white/5 border border-white/10 px-4 py-3 rounded-xl focus:outline-none focus:border-indigo-500">
+                    <button onclick="checkCoverage()" class="bg-white text-black px-6 py-3 rounded-xl font-bold hover:bg-slate-200 transition">Check</button>
+                </div>
+                <div id="coverageResult" class="mt-4 hidden p-4 rounded-xl font-bold"></div>
+            </section>
+
+            <section id="install" class="glass p-8 rounded-3xl">
+                <h2 class="text-2xl font-bold mb-4">No signal yet?</h2>
+                <p class="text-slate-400 mb-6">Get your neighbors together! Tell us where you are and we'll prioritize your street.</p>
+                <button onclick="toggleInstallForm()" class="w-full bg-white/5 border border-white/10 px-6 py-4 rounded-2xl font-bold hover:bg-white/10 transition flex justify-between items-center">
+                    <span>Request Installation</span>
+                    <span id="formIcon">+</span>
+                </button>
+                <div id="installForm" class="hidden mt-6 space-y-3">
+                    <input type="text" id="userName" placeholder="Your Name" class="w-full bg-white/5 border border-white/10 px-4 py-3 rounded-xl">
+                    <input type="text" id="userStreet" placeholder="Street Name" class="w-full bg-white/5 border border-white/10 px-4 py-3 rounded-xl">
+                    <input type="number" id="neighbors" placeholder="How many neighbors interested?" class="w-full bg-white/5 border border-white/10 px-4 py-3 rounded-xl">
+                    <button onclick="submitRequest()" class="w-full bg-indigo-600 py-3 rounded-xl font-bold hover:bg-indigo-500">Submit Request</button>
+                </div>
+            </section>
+        </div>
+
+        <section id="faq" class="mb-24 max-w-2xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">FAQs</h2>
+            <div class="space-y-4">
+                <div class="glass rounded-2xl p-6">
+                    <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-lg">
+                        <span>How do I connect?</span>
+                        <span class="text-indigo-400">+</span>
+                    </button>
+                    <div class="faq-answer text-slate-400 text-sm mt-0">
+                        <p class="pt-4">Turn on Wi-Fi, select "Asher-Link", and follow the portal to buy your data.</p>
+                    </div>
+                </div>
+                <div class="glass rounded-2xl p-6">
+                    <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center font-bold text-lg">
+                        <span>What if it's raining?</span>
+                        <span class="text-indigo-400">+</span>
+                    </button>
+                    <div class="faq-answer text-slate-400 text-sm mt-0">
+                        <p class="pt-4">Our mesh nodes are weather-proof. Rain or shine, the connection stays strong.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-white/5 pt-12 text-center text-slate-500 text-sm">
+            <p class="font-bold text-white mb-2"Powered by Oxean SA</p>
+            <p>Built for the community. Affordable. Fast. Local.</p>
+        </footer>
+    </main>
+    <script>
+        function checkCoverage() {
+            const input = document.getElementById('streetInput').value;
+            const result = document.getElementById('coverageResult');
+            result.classList.remove('hidden');
+            if (input.trim().length > 3) {
+                result.className = "mt-4 p-4 rounded-xl font-bold bg-green-500/20 text-green-400";
+                result.innerText = "Lekker! " + input + " is within our range. You can connect today!";
+            } else {
+                result.className = "mt-4 p-4 rounded-xl font-bold bg-red-500/20 text-red-400";
+                result.innerText = "Street not found. Maybe request an install?";
+            }
+        }
+        function toggleInstallForm() {
+            const form = document.getElementById('installForm');
+            form.classList.toggle('hidden');
+            document.getElementById('formIcon').innerText = form.classList.contains('hidden') ? '+' : '-';
+        }
+        function submitRequest() {
+            const name = document.getElementById('userName').value;
+            const street = document.getElementById('userStreet').value;
+            if(name && street) {
+                alert("Thanks, " + name + "! We've logged your request for " + street + ". We'll be in touch!");
+                document.getElementById('installForm').classList.add('hidden');
+            } else {
+                alert("Please fill in your name and street.");
+            }
+        }
+        function toggleFaq(btn) {
+            const content = btn.nextElementSibling;
+            content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + "px";
+        }
+        function calculate() {
+            const hours = document.getElementById('hours').value;
+            document.getElementById('hoursVal').innerText = hours;
+            const est = document.getElementById('estimate');
+            if(hours > 6) est.innerText = "Heavy Duty";
+            else if(hours > 3) est.innerText = "Value Pack";
+            else est.innerText = "Quick Fix";
+        }
+    </script>
+</body>
+</html>
